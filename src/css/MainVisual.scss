@@ -1,0 +1,26 @@
+@use'common';
+
+.MainVisual {
+    height: calc(100vh - 130px);
+
+    .inner {
+        padding: 150px 0; font-size: 120px; line-height: 1; color: black;
+font-family: 'poppins';
+        .top {
+            display: flex; justify-content: space-between; margin: 0 0 30px 0; font-weight: 600 ;
+
+            span { font-weight: 700; }
+            img { height: 150px; }
+        }
+        .mid {
+            display: flex; justify-content: space-between; margin: 0 0 30px 0; font-weight: 800;
+
+            img { height: 150px; }
+        }
+        .bot {
+            display: flex; justify-content: space-between; font-weight: 800;
+
+            img { height: 150px; }
+        }
+    }
+}

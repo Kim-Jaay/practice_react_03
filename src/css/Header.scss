@@ -1,8 +1,11 @@
 @use'common';
 
+.Header {
+    line-height: 100px; border-bottom: 1px solid #ddd;
 
-.Header{ line-height: 100px;border-bottom: 1px solid #ddd;
-    .gnb{display: flex; justify-content: space-between; 
+    .gnb {
+        display: flex; justify-content: space-between;
 
+        .main_nav { display: flex; gap: 40px; font-size: 18px; font-weight: 600;}
     }
 }

@@ -1,8 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import NAV from '../data/common.js'
 
 const MainNav = () => {
     return (
-        <div>MainNav</div>
+        <ul className="main_nav">{
+            NAV.map((it, idx) => {
+                return (
+                    <li><Link to={it.link}>{it.menu}</Link></li>
+                )
+            })
+        }
+        </ul>
     )
 }
 

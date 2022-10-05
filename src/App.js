@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 
 import Header from './components/Header'
-import Main from './components/Main'
+import MainVisual from './components/MainVisual'
 import Footer from './components/Footer'
 import ToTop from './components/ToTop'
 
@@ -14,7 +14,7 @@ const App = () => {
       <div className='wapper'>
         <Header />
         <Routes>
-          <Route path='/' element={<Main />} />
+          <Route path='/' element={<MainVisual />} />
         </Routes>
         <Footer />
         <ToTop />
