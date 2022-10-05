@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/MainVisual.scss'
+import { Link } from 'react-router-dom'
 
 const MainVisual = () => {
     return (
@@ -16,9 +17,17 @@ const MainVisual = () => {
                 <div className="bot">
                     <img src={process.env.PUBLIC_URL + '/assets/Main03.png'} alt="" />
                     <p>Ocean</p>
+
                 </div>
+
             </div>
-        </div>
+
+            <Link to='/' className='button'>
+                <img src={process.env.PUBLIC_URL + '/assets/Main_cir01.png'} alt="" className='cir01' />
+            </Link >
+
+
+        </div >
     )
 }
 
