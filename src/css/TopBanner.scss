@@ -1,0 +1,15 @@
+@use'common';
+
+.TopBanner {
+    line-height: 30px; background: common.$mainColor; color: white; font-size: 13px;
+
+    .inner {
+        display: flex; justify-content: space-between;
+
+        .top_menu {
+
+            li { position: relative; display: inline-block; margin-left: 40px; }
+            li~li::before { position: absolute; top: 11px; left: -21px; content: ''; width: 1px; height: 10px; background: white; }
+        }
+    }
+}
