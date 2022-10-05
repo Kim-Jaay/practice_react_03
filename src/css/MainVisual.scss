@@ -1,7 +1,7 @@
 @use'common';
 
 .MainVisual {
-    position: relative; height: calc(100vh - 130px);
+    height: calc(100vh - 130px);
 
     .inner {
         padding: 150px 0; font-size: 120px; line-height: 1; color: black; font-family: 'poppins';
@@ -18,13 +18,14 @@
             img { height: 150px; }
         }
         .bot {
-            display: flex; justify-content: space-between; font-weight: 800;
+            position: relative; display: flex; justify-content: space-between; font-weight: 800;
 
             img { height: 150px; }
         }
     }
     .button {
-        position: absolute; inset: 75% auto auto 30%; transform: translate(-50%,-50%);
+        position: absolute; inset: 78% auto auto 30%; transform: translate(-50%,-50%);
+
         img { animation: rotate 6s linear infinite; transform-origin: 50% 50%; width: 50%; }
         @keyframes rotate {
             100% { transform: rotate(360deg); }
