@@ -1,0 +1,32 @@
+@use'common';
+
+.Show {
+    .show_con {
+        .show_con_img {
+            position: relative; width: 1600px; margin: 0 auto 30px auto;
+
+            strong { position: absolute; inset: auto auto 0 calc((100% - 1420px)/2); font-weight: 900; font-size: 150px; -webkit-text-stroke: 1px white; color: transparent; font-family: 'poppins'; transform: translateY(24px); }
+        }
+        .des {
+            margin: 0 0 100px 0;
+
+            .inner {
+                display: flex; gap: 150px;
+
+                span { font-size: 100px; font-weight: 900; color: black; font-family: 'poppins'; }
+                p { padding: 18px 0; }
+            }
+        }
+        .gallery {
+            .img {
+                display: flex; gap: 20px; margin: 0 0 60px 0;
+
+                img { width: 33.333%; }
+            }
+            .button{text-align: center;
+             a { padding: 10px 30px; border-radius: 15px; background: common.$mainColor; color: white; }
+            }
+           
+        }
+    }
+}

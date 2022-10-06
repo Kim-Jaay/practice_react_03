@@ -1,0 +1,42 @@
+@use'common';
+
+.Ticket {
+    .ticket_con {
+        .ticket_con_list {
+            display: flex; gap: 20px;
+
+            figure {
+                background: white; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; border-radius: 20px;
+
+                .des {
+                    padding: 40px 30px 40px 30px;
+
+                    h2 { font-size: 20px; font-weight: 600; }
+                    strong { display: inline-block; font-size: 35px; color: common.$mainColor; font-weight: 900; margin: 0 0 10px 0; }
+                    p { font-size: 13px; }
+                    .rule { margin: 0 0 50px 0; font-size: 15px; line-height: 25px; // li::before { content: ''; width: 5px; height: 5px; background: common.$mainColor; border-radius: 50%; margin-right: 15px; }
+}
+                    .button {
+                        text-align: center;
+
+                        a { padding: 10px 90px; border-radius: 15px; background: common.$mainColor; color: white; }
+                    }
+                }
+            }
+        }
+    }
+    .plan {
+        background: #fafafa;
+
+        .img {
+           display: flex; gap: 20px;
+
+            .imgbtn { position: relative; color: white;
+                .con { position: absolute; left: 50px; bottom: 0px;
+                strong{display: inline-block; font-size: 30px; font-weight: 600; margin: 0 0 20px 0;}
+                }
+            }
+          
+        }
+    }
+}

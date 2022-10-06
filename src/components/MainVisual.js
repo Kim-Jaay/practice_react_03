@@ -22,9 +22,14 @@ const MainVisual = () => {
 
             </div>
 
-            <Link to='/' className='button'>
+            <div className='button'>
                 <img src={process.env.PUBLIC_URL + '/assets/Main_cir01.png'} alt="" className='cir01' />
-            </Link >
+            </div >
+            <Link to='/ticket'>
+                <img src={process.env.PUBLIC_URL + '/assets/Main_cir02.png'} alt="" className='cir02' />
+            </Link>
+
+
 
 
         </div >
