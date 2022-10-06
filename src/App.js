@@ -17,6 +17,7 @@ const App = () => {
           <Route path='/' element={<MainVisual />} />
         </Routes>
         <Main />
+
         <Footer />
         <ToTop />
       </div>
