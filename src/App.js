@@ -2,21 +2,27 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 
 import Header from './components/Header'
-import MainVisual from './components/MainVisual'
+
 import Footer from './components/Footer'
 import ToTop from './components/ToTop'
 import Main from './pages/Main'
+import Show from './components/Show'
+import Ticket from './components/Ticket'
+import Sealife from './components/Sealife'
 
 
 const App = () => {
   return (
     <>
-      <div className='wapper'>
+      <div className='Wrapper'>
         <Header />
         <Routes>
-          <Route path='/' element={<MainVisual />} />
+          <Route path='/' element={<Main />} />
+          <Route path='/show' element={<Show />}></Route>
+          <Route path='/ticket' element={<Ticket />}></Route>
+          <Route path='/sealife' element={<Sealife />}></Route>
         </Routes>
-        <Main />
+
 
         <Footer />
         <ToTop />

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import '../css/ToTop.scss'
 
 const ToTop = () => {
     const [on, setOn] = useState(false);

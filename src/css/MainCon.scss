@@ -1,0 +1,27 @@
+@use'common';
+
+.MainCon {
+
+    .Main_exhibit {
+        position: relative;
+
+        .itm01 {
+            margin: 0 0 800px 0;
+
+            img { width: 460px; }
+        }
+        .itm02 {
+            position: absolute; inset: 15% 0 auto auto;
+
+            img { width: 700px; }
+        }
+        .itm03 {
+            img { width: 820px; }
+        }
+        figure {
+            img { margin: 0 0 30px 0; }
+            p { white-space: pre; }
+            a { padding: 10px 30px; border-radius: 15px; background: common.$mainColor; color: white; }
+        }
+    }
+}

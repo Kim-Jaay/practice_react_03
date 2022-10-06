@@ -1,11 +1,9 @@
 @use'common';
 
-.MainCon {
+.ConSlide {
 	padding: 150px 0; position: relative; background: #fafafa;
 
 	.inner {
-		h2 { font-size: 30px ; font-weight: 600; margin: 0 0 20px 0; }
-		p { line-height: 1.45; font-size: 15px; margin: 0 0 50px 0;}
 		.slideArrows { display: flex; gap: 10px; width: 50px;
         img{cursor: pointer;}
         }

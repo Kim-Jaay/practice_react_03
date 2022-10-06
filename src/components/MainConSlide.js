@@ -6,7 +6,7 @@ import '../css/MainConSlide.scss'
 const MainConSlide = () => {
     const MainConSlide = useRef(null);
     return (
-        <section className='MainCon'>
+        <section className='ConSlide'>
             <div className="inner">
                 <h2>For Marine Life</h2>
                 <p>사람과 자연이 더불어 사는 즐거운 세상을 꿈꾸는 아쿠아리움<br />
@@ -32,9 +32,7 @@ const MainConSlide = () => {
                     <img src={process.env.PUBLIC_URL + '/assets/Marine_slide_01.png'} alt="" />
                     <img src={process.env.PUBLIC_URL + '/assets/Marine_slide_02.png'} alt="" />
                     <img src={process.env.PUBLIC_URL + '/assets/Marine_slide_03.png'} alt="" />
-                    <img src={process.env.PUBLIC_URL + '/assets/Marine_slide_01.png'} alt="" />
-                    <img src={process.env.PUBLIC_URL + '/assets/Marine_slide_02.png'} alt="" />
-                    <img src={process.env.PUBLIC_URL + '/assets/Marine_slide_03.png'} alt="" />
+                    <img src={process.env.PUBLIC_URL + '/assets/Marine_slide_04.png'} alt="" />
                 </Slider>
             </div>
         </section >

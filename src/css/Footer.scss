@@ -1,0 +1,29 @@
+@use'common';
+
+.Footer {
+    background: #181818; color: rgba($color: white, $alpha: 0.8);
+    .inner {
+        .top {
+            padding: 50px 0; display: flex; gap: 60px; border-bottom: 1px solid rgba($color: white, $alpha: 0.3);
+            dl {
+                dt { font-size: 15px; font-weight: 600; margin: 0 0 20px 0; }
+                dd { font-size: 13px; line-height: 20px; }
+            }
+        }
+        .bot {
+            padding: 50px 0; display: flex; justify-content: space-between;
+
+            .left {
+                line-height: 20px;
+
+                dt { font-size: 15px; font-weight: 600; margin: 0 0 10px 0; }
+                dd { font-size: 13px; line-height: 20px; }
+            }
+            .right {
+                display: flex; gap: 10px; font-size: 20px; color: #181818;
+
+                i { padding: 10px; background: rgba($color: white, $alpha: 0.5) ; border-radius: 50%; }
+            }
+        }
+    }
+}
