@@ -1,0 +1,9 @@
+@use'common';
+
+.sealife_tab {
+	display: flex; gap: 20px; text-align: center;
+
+	li { padding: 15px 30px; width: 460px; background: #f9f9f9; border-radius: 20px 20px 0 0 ; font-size: 20px; font-weight: 600;
+    a{display: block;} }
+	li.on{background: common.$mainColor; color:white}
+}
