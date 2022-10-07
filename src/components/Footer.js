@@ -11,36 +11,36 @@ const Footer = () => {
                 <div className="top">
                     <dl>
                         <dt>온라인 입장권</dt>
-                        <dd><Link to='/'>티켓 구매하기</Link></dd>
-                        <dd><Link to='/'>연간회원권</Link></dd>
-                        <dd><Link to='/'>제휴 할인정보</Link></dd>
-                        <dd><Link to='/'>학생 단체예약</Link></dd>
-                        <dd><Link to='/'>일반 단체예약</Link></dd>
+                        <dd><Link to='/ticket'>티켓 구매하기</Link></dd>
+                        <dd><Link to='/ticket'>연간회원권</Link></dd>
+                        <dd><Link to='/ticket'>제휴 할인정보</Link></dd>
+                        <dd><Link to='/ticket'>학생 단체예약</Link></dd>
+                        <dd><Link to='/ticket'>일반 단체예약</Link></dd>
                     </dl>
                     <dl>
                         <dt>SEALIFE 부산</dt>
-                        <dd><Link to='/'>운영시간</Link></dd>
-                        <dd><Link to='/'>위치 & 교통</Link></dd>
-                        <dd><Link to='/'>자주 묻는 질문</Link></dd>
-                        <dd><Link to='/'>안전수칙</Link></dd>
-                        <dd><Link to='/'>장애인 편의시설</Link></dd>
+                        <dd><Link to='/sealife/time'>운영시간</Link></dd>
+                        <dd><Link to='/sealife/location'>위치 & 교통</Link></dd>
+                        <dd><Link to='/sealife/facility'>자주 묻는 질문</Link></dd>
+                        <dd><Link to='/sealife/facility'>안전수칙</Link></dd>
+                        <dd><Link to='/sealife/facility'>장애인 편의시설</Link></dd>
                     </dl>
                     <dl>
                         <dt>회사소개</dt>
-                        <dd><Link to='/'>인사말</Link></dd>
-                        <dd><Link to='/'>연혁</Link></dd>
-                        <dd><Link to='/'>기업비전</Link></dd>
-                        <dd><Link to='/'>최신뉴스</Link></dd>
-                        <dd><Link to='/'>인재채용</Link></dd>
-                        <dd><Link to='/'>협력업체</Link></dd>
+                        <dd><Link to='/show'>인사말</Link></dd>
+                        <dd><Link to='/show'>연혁</Link></dd>
+                        <dd><Link to='/show'>기업비전</Link></dd>
+                        <dd><Link to='/show'>최신뉴스</Link></dd>
+                        <dd><Link to='/show'>인재채용</Link></dd>
+                        <dd><Link to='/show'>협력업체</Link></dd>
                     </dl>
                     <dl>
                         <dt>정책</dt>
-                        <dd><Link to='/'>이용약관</Link></dd>
-                        <dd><Link to='/'>개인정보처리방침</Link></dd>
-                        <dd><Link to='/'>마케팅 정보사용</Link></dd>
-                        <dd><Link to='/'>제휴문의</Link></dd>
-                        <dd><Link to='/'>장애인 편의시설</Link></dd>
+                        <dd><Link to='/show'>이용약관</Link></dd>
+                        <dd><Link to='/show'>개인정보처리방침</Link></dd>
+                        <dd><Link to='/ticket'>마케팅 정보사용</Link></dd>
+                        <dd><Link to='/ticket'>제휴문의</Link></dd>
+                        <dd><Link to='/sealife/facility'>장애인 편의시설</Link></dd>
                     </dl>
 
                 </div>
