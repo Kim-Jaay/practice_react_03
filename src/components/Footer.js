@@ -28,11 +28,11 @@ const Footer = () => {
                     <dl>
                         <dt>회사소개</dt>
                         <dd><Link to='/show'>인사말</Link></dd>
-                        <dd><Link to='/show'>연혁</Link></dd>
+                        <dd><Link to='/ticket'>연혁</Link></dd>
                         <dd><Link to='/show'>기업비전</Link></dd>
-                        <dd><Link to='/show'>최신뉴스</Link></dd>
+                        <dd><Link to='/ticket'>최신뉴스</Link></dd>
                         <dd><Link to='/show'>인재채용</Link></dd>
-                        <dd><Link to='/show'>협력업체</Link></dd>
+                        <dd><Link to='/ticket'>협력업체</Link></dd>
                     </dl>
                     <dl>
                         <dt>정책</dt>
