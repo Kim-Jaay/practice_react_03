@@ -20,7 +20,7 @@ const Ticket = () => {
     return (
         <div className='Ticket'>
             <div className="banner">
-                <img src={process.env.PUBLIC_URL + '/assets/banner02.png'} alt="" />
+                <img src={process.env.PUBLIC_URL + '/assets/banner02.jpg'} alt="" />
                 <h2>Online Ticketing</h2>
             </div>
 
@@ -34,7 +34,7 @@ const Ticket = () => {
                             ticketing.map((it, idx) => {
                                 return (
                                     <figure>
-                                        <img src={process.env.PUBLIC_URL + `/assets/ticket0${it.id}.png`} alt="" />
+                                        <img src={process.env.PUBLIC_URL + `/assets/ticket0${it.id}.jpg`} alt="" />
                                         <div className="des">
                                             <h2>{it.title}</h2>
                                             <strong>{it.price}</strong>

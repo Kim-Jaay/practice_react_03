@@ -9,7 +9,7 @@ const Sealife = () => {
     return (
         <div className='Sealife'>
             <div className="banner">
-                <img src={process.env.PUBLIC_URL + '/assets/banner03.png'} alt="" />
+                <img src={process.env.PUBLIC_URL + '/assets/banner03.jpg'} alt="" />
                 <h2>SEA LIFE BUSAN</h2>
             </div>
 

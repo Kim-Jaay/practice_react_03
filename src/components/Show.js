@@ -6,7 +6,7 @@ const Show = () => {
     return (
         <div className='Show'>
             <div className="banner">
-                <img src={process.env.PUBLIC_URL + '/assets/banner01.png'} alt="" />
+                <img src={process.env.PUBLIC_URL + '/assets/banner01.jpg'} alt="" />
                 <h2>SEA LIFE Performance info</h2>
             </div>
             <div className="show_con sc">
